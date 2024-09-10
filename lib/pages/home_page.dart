@@ -9,10 +9,10 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Column(
-          children: [
-            const Padding(padding: EdgeInsets.only(top: 40)),
+          children: [ 
+            const Padding(padding: EdgeInsets.only(top :40)),
             const Center(child: Text('Bluetooth mouse')),
-            const Padding(padding: EdgeInsets.only(top: 40)),
+            const Padding(padding: EdgeInsets.only(top :40)),
             SizedBox(
               width: 200,
               child: TextField(
@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
                 inputFormatters: [FilteringTextInputFormatter.digitsOnly],
               ),
             ),
-            const Padding(padding: EdgeInsets.only(top: 40)),
+            const Padding(padding: EdgeInsets.only(top :40)),
             ElevatedButton(
               onPressed: () {},
               child: const Text('Check'),
